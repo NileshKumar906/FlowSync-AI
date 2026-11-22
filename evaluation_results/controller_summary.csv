@@ -1,0 +1,4 @@
+controller,average_queue,maximum_queue,average_ordinary_waiting_time,average_emergency_departed_wait,average_emergency_wait_all,throughput,total_arrivals,total_departures,remaining_vehicles,emergency_arrivals,emergency_departures,emergency_remaining,remaining_emergency_average_wait,total_emergency_wait_across_arrivals,emergency_service_rate
+Fixed-Time,8.549,19.38,9.61493922656405,9.523502747252746,9.557199328449329,522.94,533.96,522.94,11.02,8.86,8.72,0.14,1.42,84.92,98.41986455981942
+Vehicle-Actuated,5.491766666666666,14.06,6.172615693640492,6.540384337884337,6.5312732267732265,528.9,533.96,528.9,5.06,8.86,8.84,0.02,0.04,57.82,99.77426636568849
+DQN,5.828266666666666,14.56,6.540182688754168,7.205022838272838,7.187911727161728,527.16,533.96,527.16,6.8,8.86,8.82,0.04,0.08,63.16,99.54853273137697

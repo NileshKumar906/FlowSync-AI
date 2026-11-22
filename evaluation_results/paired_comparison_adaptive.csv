@@ -1,0 +1,21 @@
+comparison,first_controller,second_controller,metric,mean_difference,standard_deviation,ci_95_lower,ci_95_upper,first_controller_wins,second_controller_wins,ties,scenarios
+DQN-v1-vs-Actuated,DQN v1,Vehicle-Actuated,average_queue,22.327499999999997,18.906102259219228,17.102615833333335,27.473402499999995,5,45,0,50
+DQN-v1-vs-Actuated,DQN v1,Vehicle-Actuated,average_ordinary_waiting_time,21.865944368536795,18.01812050156665,16.95729363679051,26.75347830226262,5,45,0,50
+DQN-v1-vs-Actuated,DQN v1,Vehicle-Actuated,average_emergency_wait_all,15.790574814074814,16.69255817071778,11.22738869047619,20.445299111999113,7,42,1,50
+DQN-v1-vs-Actuated,DQN v1,Vehicle-Actuated,throughput,-47.64,39.87979898829656,-58.66,-36.56,0,48,2,50
+DQN-v2-vs-Actuated,DQN v2,Vehicle-Actuated,average_queue,22.327499999999997,18.906102259219228,17.087111666666672,27.592364166666666,5,45,0,50
+DQN-v2-vs-Actuated,DQN v2,Vehicle-Actuated,average_ordinary_waiting_time,21.865944368536795,18.01812050156665,16.902577643145953,26.828324208628388,5,45,0,50
+DQN-v2-vs-Actuated,DQN v2,Vehicle-Actuated,average_emergency_wait_all,15.790574814074814,16.69255817071778,11.314917884892884,20.40518627344877,7,42,1,50
+DQN-v2-vs-Actuated,DQN v2,Vehicle-Actuated,throughput,-47.64,39.87979898829656,-58.88,-36.6595,0,48,2,50
+Double-DQN-vs-Actuated,Double DQN,Vehicle-Actuated,average_queue,22.2278,18.945851619478645,17.07421166666667,27.408004166666668,5,45,0,50
+Double-DQN-vs-Actuated,Double DQN,Vehicle-Actuated,average_ordinary_waiting_time,21.780085284288216,18.04853547352862,16.841078228395233,26.72094055069992,5,45,0,50
+Double-DQN-vs-Actuated,Double DQN,Vehicle-Actuated,average_emergency_wait_all,15.579523532023531,16.685709303289443,11.185040545565546,20.174861063936063,7,42,1,50
+Double-DQN-vs-Actuated,Double DQN,Vehicle-Actuated,throughput,-47.06,40.19158709816505,-58.020500000000006,-36.0,0,48,2,50
+Adaptive-DQN-vs-Actuated,Adaptive DQN,Vehicle-Actuated,average_queue,22.327499999999997,18.906102259219228,17.216872499999997,27.4355425,5,45,0,50
+Adaptive-DQN-vs-Actuated,Adaptive DQN,Vehicle-Actuated,average_ordinary_waiting_time,21.865944368536795,18.01812050156665,16.883509254793367,26.688017244056756,5,45,0,50
+Adaptive-DQN-vs-Actuated,Adaptive DQN,Vehicle-Actuated,average_emergency_wait_all,15.790574814074814,16.69255817071778,11.396558204295706,20.492065659340657,7,42,1,50
+Adaptive-DQN-vs-Actuated,Adaptive DQN,Vehicle-Actuated,throughput,-47.64,39.87979898829656,-58.7605,-36.639500000000005,0,48,2,50
+Adaptive-DQN-vs-Double-DQN,Adaptive DQN,Double DQN,average_queue,0.09969999999999991,0.2684991649657434,0.03466499999999995,0.18060333333333303,0,8,42,50
+Adaptive-DQN-vs-Double-DQN,Adaptive DQN,Double DQN,average_ordinary_waiting_time,0.08585908424857497,0.23523521788293758,0.02762846247619386,0.15746935650944174,0,8,42,50
+Adaptive-DQN-vs-Double-DQN,Adaptive DQN,Double DQN,average_emergency_wait_all,0.2110512820512821,0.6051143960898556,0.06871794871794876,0.392001282051282,0,8,42,50
+Adaptive-DQN-vs-Double-DQN,Adaptive DQN,Double DQN,throughput,-0.58,1.5265005999450683,-1.04,-0.2,0,8,42,50

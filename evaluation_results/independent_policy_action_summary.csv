@@ -1,0 +1,4 @@
+controller,action_0_percentage_mean,action_0_percentage_std,action_1_percentage_mean,action_1_percentage_std,switch_requests_eligible_mean,switch_requests_eligible_std,blocked_by_min_green_mean,blocked_by_min_green_std,actions_during_yellow_mean,actions_during_yellow_std,actual_phase_switches_mean,actual_phase_switches_std,forced_switches_mean,forced_switches_std
+DQN v1,2.43,0.6172960568225813,97.57000000000002,0.6172960568225799,75.0,0.0,375.0,0.0,150.0,0.0,75.0,0.0,0.0,0.0
+DQN v2,0.9366666666666668,0.40809551591922527,99.06333333333333,0.40809551591922466,75.0,0.0,374.44,0.7329003050503234,150.0,0.0,75.0,0.0,0.0,0.0
+Double DQN,19.37333333333333,2.400529042219586,80.62666666666667,2.4005290422195884,75.0,0.0,348.3,8.054026753045678,150.0,0.0,75.0,0.0,0.0,0.0
