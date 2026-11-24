@@ -108,10 +108,3 @@ Future Scope
 - Explore integration with real-world traffic data.
 
 FlowSync AI — Exploring intelligent and adaptive traffic signal management through reinforcement learning.
-
-After saving, execute these commands in your project terminal:
-
-```powershell
-git add README.md
-git commit -m "Add project README"
-git push origin main
