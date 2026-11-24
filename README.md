@@ -72,39 +72,59 @@ FlowSync-AI/
 ├── dashboard.py
 ├── requirements.txt
 ├── README.md
-└── ... Installation and Setup
-1. Clone the repository
+└── ...
+```
+
+## Installation and Setup
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/NileshKumar906/FlowSync-AI.git
 cd FlowSync-AI
+```
 
+### 2. Create a virtual environment
 
-2. Create a virtual environment
+```bash
 python -m venv .venv
+```
 
+### 3. Activate the environment
 
-3. Activate the environment
-Windows:
+**Windows:**
+
+```powershell
 .venv\Scripts\activate
+```
 
+### 4. Install dependencies
 
-4. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
+### 5. Run the dashboard
 
-5. Run the dashboard
+```bash
 streamlit run dashboard.py
+```
 
+## Limitations
 
-Limitations
 - Traffic conditions are generated within a software simulation.
 - The project does not use real-world traffic sensor data.
 - The simulation does not model a complete real-world road network.
 - The evaluated reinforcement learning controllers did not outperform the Vehicle-Actuated baseline in the current evaluation.
-Future Scope
+
+## Future Scope
+
 - Improve DQN reward design and training.
 - Explore more advanced reinforcement learning algorithms.
 - Incorporate more realistic traffic dynamics.
 - Extend the simulation to multiple intersections.
 - Explore integration with real-world traffic data.
 
-FlowSync AI — Exploring intelligent and adaptive traffic signal management through reinforcement learning.
+---
+
+**FlowSync AI** — Exploring intelligent and adaptive traffic signal management through reinforcement learning.
